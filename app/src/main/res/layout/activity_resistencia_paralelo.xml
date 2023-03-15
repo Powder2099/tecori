@@ -4,36 +4,36 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".resistenciaserie">
+    tools:context=".ResistenciaParalelo">
 
     <Button
-        android:id="@+id/menuresistencias"
+        android:id="@+id/MenuResistencias"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="regresar "
+        android:text="regresar"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.022"
+        app:layout_constraintHorizontal_bias="0.05"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.008" />
+        app:layout_constraintVertical_bias="0.023" />
 
     <TextView
-        android:id="@+id/textView4"
+        android:id="@+id/textView13"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Bienvenido a la calculadora de resistencias en Serie"
-        app:layout_constraintBottom_toTopOf="@+id/linearLayout"
+        android:layout_marginTop="72dp"
+        android:text="bienvenido a la calculadora de resistencias en paralelo"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.793" />
+        app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/calcular"
+        android:id="@+id/CalcularResistenciaParalelo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="80dp"
+        android:layout_marginBottom="40dp"
         android:text="calcular"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -41,20 +41,20 @@
         app:layout_constraintStart_toStartOf="parent" />
 
     <LinearLayout
-        android:id="@+id/linearLayout"
-        android:layout_width="409dp"
-        android:layout_height="486dp"
+        android:layout_width="410dp"
+        android:layout_height="520dp"
         android:orientation="vertical"
-        tools:layout_editor_absoluteX="1dp"
-        tools:layout_editor_absoluteY="116dp">
+        app:layout_constraintBottom_toTopOf="@+id/CalcularResistenciaParalelo"
+        app:layout_constraintTop_toBottomOf="@+id/textView13"
+        tools:layout_editor_absoluteX="0dp">
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Resistencia1" />
+            android:text="Resitencia1" />
 
         <EditText
-            android:id="@+id/resistencia1"
+            android:id="@+id/editTextNumberDecimal5"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
@@ -66,7 +66,7 @@
             android:text="Resistencia2" />
 
         <EditText
-            android:id="@+id/editTextNumberDecimal6"
+            android:id="@+id/editTextNumberDecimal8"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
@@ -78,7 +78,7 @@
             android:text="Resistencia3" />
 
         <EditText
-            android:id="@+id/editTextNumberDecimal7"
+            android:id="@+id/editTextNumberDecimal10"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
@@ -90,19 +90,7 @@
             android:text="Resistencia4" />
 
         <EditText
-            android:id="@+id/editTextNumberDecimal9"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:ems="10"
-            android:inputType="numberDecimal" />
-
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Resultado" />
-
-        <EditText
-            android:id="@+id/editTextNumberDecimal12"
+            android:id="@+id/editTextNumberDecimal11"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"

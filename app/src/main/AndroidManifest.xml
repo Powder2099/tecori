@@ -12,6 +12,9 @@
         android:theme="@style/Theme.Tecori"
         tools:targetApi="31">
         <activity
+            android:name=".ResistenciaParalelo"
+            android:exported="false" />
+        <activity
             android:name=".resistenciaserie"
             android:exported="false" />
         <activity

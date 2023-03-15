@@ -45,10 +45,10 @@
             android:text="resistencias en serie" />
 
         <Button
-            android:id="@+id/resistenciasparalelo"
+            android:id="@+id/ResistenciasEnParalelo"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="resistencias paralelo" />
+            android:text="Resistencias En Paralelo" />
 
         <Button
             android:id="@+id/codigodecolores"
